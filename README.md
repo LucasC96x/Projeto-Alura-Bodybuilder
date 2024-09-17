@@ -15,8 +15,6 @@ Este projeto é uma simples aplicação web que exibe informações sobre atleta
 - **index.html**: Estrutura básica da página, contendo os campos de busca e o local para exibir os resultados.
 - **style.css**: Estilos que definem a aparência da página, com foco em uma experiência visual agradável.
 
-## Como Executar
-
 ## Agradecimentos
 
 Este projeto foi realizado com o suporte dos conteúdos oferecidos pela [Alura](https://www.alura.com.br/), mais especificamente o curso **Dev com Gemini**, que me ajudou a aprender as habilidades necessárias para construir esta aplicação. Agradeço à equipe da Alura pelo ótimo material e ensino de qualidade.
