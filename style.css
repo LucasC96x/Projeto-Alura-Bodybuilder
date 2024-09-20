@@ -1,4 +1,4 @@
-/* Importa a fonte Chakra Petch do Google Fonts */
+r/* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* Estiliza o corpo da página */
@@ -223,7 +223,7 @@ footer {
     }
 
     video#myVideo {
-        position: fixed;
+        position: center;
         top: 0;
         left: 0;
         object-fit: cover; /* Preenche a tela sem distorção */
