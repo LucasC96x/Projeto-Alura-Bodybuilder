@@ -169,27 +169,6 @@ footer {
     font-size: 0.7rem; /* Tamanho da fonte */
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem; /* Tamanho da fonte em telas menores */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
-    }
-
-    section input {
-        width: 25rem; /* Largura dos inputs em telas menores */
-        padding: 0.8rem; /* Espaçamento interno em telas menores */
-    }
-
-    .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
-        height: 40vh; /* Altura da caixa de resultados em telas menores */
-    }
-
-    .item-resultado h2 {
-        font-size: 1.2rem; /* Tamanho da fonte dos títulos em telas menores */
-    }
-}
-
 /* Responsividade para celulares */
 @media (max-width: 480px) {
 
