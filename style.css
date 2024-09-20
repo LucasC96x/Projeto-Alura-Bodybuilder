@@ -193,32 +193,56 @@ footer {
 @media (max-width: 480px) {
 
     h1 {
-        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+        font-size: 1.5rem; /* Reduz o tamanho da fonte para melhor ajuste */
+        letter-spacing: 0.05rem; /* Reduz o espaçamento entre letras */
+        margin: 0.5rem 0; /* Adiciona margem para dar mais respiro */
     }
 
     section input {
-        width: 17rem; /* Largura total dos inputs em telas pequenas */
+        width: 90%; /* Usa 90% da largura da tela para inputs */
+        padding: 0.7rem; /* Ajusta o espaçamento interno */
+        font-size: 0.9rem; /* Reduz o tamanho da fonte para legibilidade */
     }
 
     section button {
-        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
-        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+        width: 90%; /* Botões agora ocupam 90% da tela */
+        padding: 0.6rem; /* Reduz o padding para economizar espaço */
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+        margin-top: 0.5rem; /* Adiciona espaçamento superior */
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
-        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        width: 100%; /* Largura total da caixa de resultados */
+        height: auto; /* Altura ajustável com base no conteúdo */
+        padding: 0.5rem; /* Menos padding para economizar espaço */
+    }
+
+    .item-resultado {
+        flex-direction: column; /* Exibe os itens de resultado em coluna */
+        align-items: flex-start; /* Alinha à esquerda */
+        padding: 0.8rem; /* Ajusta o padding dos itens */
+    }
+
+    .item-resultado img {
+        width: 100%; /* Imagem ocupa 100% da largura disponível */
+        height: auto; /* Altura automática para manter a proporção */
+        margin-bottom: 0.5rem; /* Espaçamento abaixo da imagem */
     }
 
     .item-resultado h2 {
-        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+        font-size: 1rem; /* Ajusta o tamanho da fonte */
+        margin-bottom: 0.3rem; /* Menos margem inferior */
+    }
+
+    .descricao-meta {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte da descrição */
     }
 
     footer {
-        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        font-size: 0.8rem; /* Tamanho menor da fonte do rodapé */
+        padding: 0.5rem; /* Ajusta o padding para o rodapé */
     }
-
 }
+
 
 
