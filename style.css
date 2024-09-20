@@ -226,8 +226,6 @@ footer {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100vw; /* Largura total da viewport */
-        height: 100vh; /* Altura total da viewport */
         object-fit: cover; /* Preenche a tela sem distorção */
         z-index: -1; /* Coloca o vídeo atrás de outros elementos */
         pointer-events: none; /* Impede interações com o vídeo */
