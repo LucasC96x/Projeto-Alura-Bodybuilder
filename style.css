@@ -204,9 +204,8 @@ footer {
     }
 
     .item-resultado img {
-        width: 100%; /* Imagem ocupa 100% da largura disponível */
-        height: auto; /* Altura automática para manter a proporção */
-        margin-bottom: 0.5rem; /* Espaçamento abaixo da imagem */
+        width: 100%; /* Ocupa toda a largura disponível no container */
+        height: auto; /* Mantém a proporção original */
     }
 
     .item-resultado h2 {
