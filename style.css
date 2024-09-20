@@ -23,7 +23,8 @@ video#myVideo {
     width: 150%;
     height: 150%;
     z-index: -1;
-    transform: translateX(-50%) translateY(-50%);;   
+    transform: translateX(-50%) translateY(-50%);
+     pointer-events: none; /* Impede que o vídeo capture interações */
 }
 
 /* Estiliza os títulos h1 */
