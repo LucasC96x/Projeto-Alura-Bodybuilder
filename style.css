@@ -113,7 +113,7 @@ coluna-esquerda {
     margin-bottom: 0.5rem;
   }
 
-.item-resultado img {
+  .item-resultado img {
     width: 200px;
     height: 200px;
     object-fit: cover; /* Faz a imagem preencher todo o espaço disponível, mantendo a proporção */
@@ -204,7 +204,7 @@ footer {
     }
 
     .item-resultado img {
-        width: 100%; /* Ocupa toda a largura disponível no container */
+        max-width: 50%; /* Ocupa toda a largura disponível no container */
         height: auto; /* Mantém a proporção original */
     }
 
@@ -220,6 +220,17 @@ footer {
     footer {
         font-size: 0.8rem; /* Tamanho menor da fonte do rodapé */
         padding: 0.5rem; /* Ajusta o padding para o rodapé */
+    }
+
+    video#myVideo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw; /* Largura total da viewport */
+        height: 100vh; /* Altura total da viewport */
+        object-fit: cover; /* Preenche a tela sem distorção */
+        z-index: -1; /* Coloca o vídeo atrás de outros elementos */
+        pointer-events: none; /* Impede interações com o vídeo */
     }
 }
 
